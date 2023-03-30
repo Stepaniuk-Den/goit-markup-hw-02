@@ -40,7 +40,7 @@ body {
 }
 
 /* Header */
-.nav-link {
+.nav .menu {
   color: var(--secondary-color-text);
   text-decoration: none;
 
@@ -74,9 +74,9 @@ body {
   color: var(--secondary-color-text);
 }
 
-.nav-link:hover,
+.nav .link:hover,
 .header .contact-link:hover,
-.nav-link:focus,
+.nav .link:focus,
 .header .contact-link:focus {
   color: var(--alt-secondary-color-btn);
 }
