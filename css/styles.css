@@ -130,7 +130,7 @@ body {
   background-color: var(--secondary-color-text);
 }
 .footer .logo {
-  color: var(--alt-color);
+  color: var(--third-color-text);
   text-decoration: none;
 }
 
@@ -138,7 +138,7 @@ body {
   color: var(--alt-secondary-color-text);
 }
 .footer .text {
-  color: var(--alt-color);
+  color: var(--third-color-text);
 }
 
 /* Portfolio */
