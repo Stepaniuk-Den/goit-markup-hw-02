@@ -23,10 +23,10 @@ CORNFLOWER #e7e9fc;
 }
 
 body {
-  background-color: #e5e5e5;
-  color: var(--main-color-text);
+  background-color: var(--alt-color);
+  color: #434455;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
