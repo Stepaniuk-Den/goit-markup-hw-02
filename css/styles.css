@@ -55,6 +55,10 @@ body {
   font-style: normal;
 }
 
+.contact {
+  font-style: normal;
+}
+
 .logo {
   color: var(--alt-secondary-color-text);
 
