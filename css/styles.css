@@ -144,12 +144,12 @@ body {
   background-color: var(--secondary-color-text);
 }
 .footer .logo {
-  color: var(--third-color-text);
+  color: var(--alt-secondary-color-text);
   text-decoration: none;
 }
 
 .footer .color {
-  color: var(--alt-secondary-color-text);
+  color: var(--third-color-text);
 }
 .footer .text {
   color: var(--third-color-text);
