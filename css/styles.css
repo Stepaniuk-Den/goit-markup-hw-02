@@ -139,6 +139,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team {
+  background-color: var(--third-color-text);
+}
+
 /* Footer */
 .footer {
   background-color: var(--secondary-color-text);
