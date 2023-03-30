@@ -56,7 +56,8 @@ body {
 }
 
 .logo {
-  color: var(--secondary-color-text);
+  color: var(--alt-secondary-color-text);
+
   text-decoration: none;
 
   font-family: "Raleway", sans-serif;
@@ -70,7 +71,7 @@ body {
   text-transform: uppercase;
 }
 .logo .color {
-  color: var(--alt-secondary-color-text);
+  color: var(--secondary-color-text);
 }
 
 .nav-link:hover,
