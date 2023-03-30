@@ -126,6 +126,9 @@ body {
 }
 
 /* Footer */
+.footer {
+  background-color: var(--secondary-color-text);
+}
 .footer .logo {
   color: var(--alt-color);
   text-decoration: none;
