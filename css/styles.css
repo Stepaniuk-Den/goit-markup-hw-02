@@ -61,6 +61,9 @@ body {
   font-size: 18px;
   line-height: 1.17;
   /* identical to box height, or 117% */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo .color {
   color: var(--alt-secondary-color-text);
