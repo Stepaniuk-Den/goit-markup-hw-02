@@ -174,10 +174,10 @@ body {
 /* Portfolio */
 .filter {
   color: var(--alt-secondary-color-text);
-  background-color: var(--secondary-color-btn);
+  background-color: var(--third-color-text);
   cursor: pointer;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
