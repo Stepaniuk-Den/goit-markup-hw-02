@@ -48,7 +48,7 @@ body {
   /* identical to box height, or 150% */
 }
 
-.contact {
+.contact .link {
   color: var(--main-color-text);
   text-decoration: none;
 
