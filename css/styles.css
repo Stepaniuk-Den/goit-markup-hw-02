@@ -48,7 +48,7 @@ body {
   /* identical to box height, or 150% */
 }
 
-.header .contact-link {
+.contact .link {
   color: var(--main-color-text);
   text-decoration: none;
 
@@ -75,9 +75,9 @@ body {
 }
 
 .nav .link:hover,
-.header .contact-link:hover,
+.contact .link:hover,
 .nav .link:focus,
-.header .contact-link:focus {
+.contact .link:focus {
   color: var(--alt-secondary-color-btn);
 }
 
