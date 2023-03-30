@@ -143,6 +143,14 @@ body {
   background-color: var(--third-color-text);
 }
 
+.personal {
+  background-color: var(--alt-color);
+}
+
+.prof {
+  font-size: 16px;
+}
+
 /* Footer */
 .footer {
   background-color: var(--secondary-color-text);
