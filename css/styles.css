@@ -22,6 +22,10 @@ CORNFLOWER #e7e9fc;
   list-style: none;
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   background-color: var(--alt-color);
   color: #434455;
