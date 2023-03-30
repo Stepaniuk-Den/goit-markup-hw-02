@@ -86,6 +86,7 @@ body {
 .hero .btn {
   color: var(--alt-color);
   background-color: var(--alt-secondary-color-text);
+  cursor: pointer;
 
   font-weight: 500;
   /* identical to box height, or 150% */
@@ -138,6 +139,7 @@ body {
 .filter {
   color: var(--alt-secondary-color-text);
   background-color: var(--secondary-color-btn);
+  cursor: pointer;
 
   font-family: "Roboto";
   font-style: normal;
