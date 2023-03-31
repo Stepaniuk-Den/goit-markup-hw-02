@@ -193,3 +193,7 @@ body {
   color: var(--alt-color);
   background-color: var(--alt-secondary-color-btn);
 }
+
+.list .link {
+  text-decoration: none;
+}
