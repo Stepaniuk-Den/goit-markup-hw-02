@@ -196,4 +196,7 @@ body {
 
 .list .link {
   text-decoration: none;
+  color: var(--main-color-text);
+
+  letter-spacing: 0.02em;
 }
