@@ -194,7 +194,7 @@ body {
   background-color: var(--alt-secondary-color-btn);
 }
 
-.list .link,
+.list.projects .link,
 .type {
   text-decoration: none;
   color: var(--main-color-text);
