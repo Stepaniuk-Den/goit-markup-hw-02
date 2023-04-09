@@ -18,6 +18,29 @@ CORNFLOWER #e7e9fc;
   --secondary-color-btn: #e7e9fc;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
 .list {
   list-style: none;
 }
@@ -30,7 +53,7 @@ body {
   background-color: var(--alt-color);
   color: #434455;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,7 +87,7 @@ body {
 
   text-decoration: none;
 
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -87,9 +110,13 @@ body {
 
 /* Hero */
 .hero {
+  padding: 188px 0;
   background-color: var(--secondary-color-text);
+
+  text-align: center;
 }
 .hero-title {
+  width: 496px;
   color: var(--alt-color);
 
   font-weight: 700;
@@ -102,10 +129,11 @@ body {
 }
 
 .hero .btn {
+  margin-top: 48px;
   color: var(--alt-color);
   background-color: var(--alt-secondary-color-text);
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,7 +147,13 @@ body {
 }
 
 /* Section */
+
+.section {
+  padding-top: 120px;
+}
+
 .section-title {
+  padding-bottom: 72px;
   color: var(--secondary-color-text);
 
   font-weight: 700;
@@ -133,6 +167,7 @@ body {
 }
 
 .section .list-title {
+  text-align: left;
   color: var(--secondary-color-text);
 
   font-weight: 500;
@@ -143,7 +178,22 @@ body {
   letter-spacing: 0.02em;
 }
 
+.activity .section {
+  padding-bottom: 0px;
+}
+
+.activity .list-text {
+  width: 264px;
+  text-align: left;
+}
+
+.products.section {
+  padding-bottom: 120px;
+}
+
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--third-color-text);
 }
 
@@ -157,8 +207,15 @@ body {
 
 /* Footer */
 .footer {
+  padding: 101.5px 0 100px 0;
   background-color: var(--secondary-color-text);
 }
+
+.footer .container {
+  flex-direction: column;
+  text-align: start;
+}
+
 .footer .logo {
   color: var(--alt-secondary-color-text);
   text-decoration: none;
@@ -168,6 +225,8 @@ body {
   color: var(--third-color-text);
 }
 .footer .text {
+  margin-top: 17.5px;
+  width: 264px;
   color: var(--third-color-text);
 }
 
@@ -177,7 +236,7 @@ body {
   background-color: var(--third-color-text);
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
